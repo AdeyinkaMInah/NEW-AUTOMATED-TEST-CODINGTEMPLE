@@ -1,0 +1,2 @@
+This project integrates GitHub Actions to automate testing using Cypress. The workflow is designed to run Cypress tests for data-driven API testing. The tests check for booking IDs based on first names from the RESTful Booker API.
+  
