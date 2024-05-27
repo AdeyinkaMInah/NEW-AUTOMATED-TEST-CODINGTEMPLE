@@ -6,7 +6,7 @@ on:
       - add-zap-baseline-scan
   pull_request:
     branches:
-      - main
+      - BASE-LINE
 
 jobs:
   zap:
