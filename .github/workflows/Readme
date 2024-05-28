@@ -1,1 +1,1 @@
-.github/workflows/tests.yml
+In this project, we will focus on implementing the OWASP ZAP Baseline Scan into your GitHub project for automating security testing. By the end of this project, you will have a comprehensive understanding of how to use OWASP ZAP Baseline Scan to detect security issues in your web application.
