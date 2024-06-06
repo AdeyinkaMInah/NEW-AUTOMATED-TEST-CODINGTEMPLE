@@ -1,2 +1,0 @@
-mkdir -p .github/workflows
-nano .github/workflows/owasp-zap-baseline-scan.yml
