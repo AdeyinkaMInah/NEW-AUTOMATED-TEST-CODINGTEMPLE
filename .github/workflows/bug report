@@ -1,0 +1,43 @@
+Issue: Cross-Domain Misconfiguration 
+
+Vulnerability Description: The web application is vulnerable to cross-domain misconfiguration and can lead to security risks. 
+
+Steps to Reproduce:  
+
+Trigger the application workflow 
+
+      2.Identify any cross-domain requests or misconfigurations 
+
+Impact: This vulnerability could allow an attacker to perform unauthorized actions across different domains. 
+
+Possible mitigations: 
+
+1.Validate and sanitize input data to prevent malicious cross-domain requests. 
+
+2.Regularly scan and audit the web application for security vulnerabilities using OWASP ZAP or other security tools. 
+
+ 
+
+ 
+
+Issue: Information disclosure in suspicious comments 
+
+Vulnerability Description: Unauthorized users can gain access to sensitive data. 
+
+Steps to Reproduce: 
+
+Login to the web application 
+
+      2. Go to the comment section and post a suspicious comment 
+
+      3. Check to see if comments display any error messages. 
+
+ 
+
+Possible Mitigation: 
+
+     1. Implement input validation for comments to prevent malicious comments. 
+
+   2. Ensure comments are properly sanitized before displaying them to the web         application users. 
+
+3. Limit the number of comments a user can comment within a certain time           frame. 

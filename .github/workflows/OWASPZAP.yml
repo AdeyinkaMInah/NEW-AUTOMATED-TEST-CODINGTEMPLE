@@ -1,0 +1,16 @@
+name: OWASP ZAP Scan
+
+on:
+    push: # Trigger the scan when code is pushed
+        
+
+jobs:
+    zap_scan:
+        runs-on: ubuntu-latest
+        name: Scan ZAP website
+        steps:
+            - name: ZAP scan
+              uses: zaproxy/action-baseline@v0.3.0
+              with:
+                target: 'https://juice-shop.herokuapp.com/#'
+
