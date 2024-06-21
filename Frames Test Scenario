@@ -1,0 +1,10 @@
+Frames
+
+Single Frame
+1. Open the webite http://demoqa.com/frames
+2. Verify message that states, "This is a sample page".
+
+Nested Frame
+1. Open webiste https://demoqa.com/nestedframes
+2. Verify Parent Frame.
+3. Verify child frame.
