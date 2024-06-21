@@ -1,0 +1,18 @@
+Alert 
+1. Open Browser https://demoqa.com/alerts.
+2. Click Button to see alert, hit click me.
+3. Alert states you clicked a button and select ok.
+
+
+Timer Alert 
+1. Open web broswer https://demoqa.com/alerts.
+2. Click on button that states, alert will appear after 5 seconds, Select click me. 
+3. After five seconds receive an alert that states"this alert appeared after 5 seconds". Select ok buttton.
+
+
+Confirm Alert
+1. Open web broswer https://demoqa.com/alerts.
+2. Click button thats states, on button click, confirm box will appear.
+3.Select click me button.
+4. Receive a pop up that states,"Please enter your name, add name in box", and select ok.
+5. No error messages, even using alphanumeric input in name box.
